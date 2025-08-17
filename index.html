@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/images/img-2.png" type="image/x-icon">
+    <title>My Website</title>
+</head>
+
+<body>
+    <!-- Header -->
+
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1><span>A</span>jay<span>D</span>eekonda</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#services" data-after="Service">Services</a></li>
+                        <li><a href="#projects" data-after="Projects">Projects</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Hero Section  -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hello, <span></span></h1>
+                <h1>My Name is <span></span></h1>
+                <h1>Ajay Deekonda<span></span></h1>
+                <a href="#projects" type="button" class="cta">Portfolio</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Service Section -->
+<section id="services">
+    <div class="services container">
+        <div class="service-top">
+            <h1 class="section-title">Serv<span>i</span>ces</h1>
+            <p>I provide end-to-end web development and cloud solutions. From designing interactive frontends to building
+                secure APIs and deploying applications on cloud platforms, I deliver scalable and reliable solutions tailored
+                to business needs.</p>
+        </div>
+        <div class="service-bottom">
+            <div class="service-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/react.png" /></div>
+                <h2>Frontend Development</h2>
+                <p>Building responsive, modern, and interactive UIs using React.js, JavaScript, and CSS frameworks for
+                    seamless user experiences.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/database.png" /></div>
+                <h2>Backend & APIs</h2>
+                <p>Developing scalable REST APIs with Node.js, Express.js, and .NET Core, integrated with SQL and NoSQL databases
+                    like MySQL, MongoDB, and Azure SQL.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/cloud.png" /></div>
+                <h2>Cloud Solutions</h2>
+                <p>Deploying and managing applications on Microsoft Azure with services like App Service, Blob Storage, Event Hub,
+                    and Databricks for analytics.</p>
+            </div>
+            <div class="service-item">
+                <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/speed.png" /></div>
+                <h2>Performance & SEO</h2>
+                <p>Optimizing website performance, improving load speed, and applying SEO best practices to enhance
+                    discoverability and user engagement.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Service Section -->
+
+   <!-- Projects Section -->
+<section id="projects">
+    <div class="projects container">
+        <div class="projects-header">
+            <h1 class="section-title">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>EduSync Platform</h1>
+                    <h2>Course & Quiz Management</h2>
+                    <p>A full-stack platform for online learning where users can register, access courses, take quizzes,
+                        and track results. Built using React for the frontend, .NET Web API with Azure SQL for the backend,
+                        and Azure Blob for file storage. Event Hub powers real-time quiz results processing.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./assets/images/Edusync.jpg" alt="EduSync Platform">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>SQL Injection Exploitation Toolkit</h1>
+                    <h2>Cybersecurity Research Project</h2>
+                    <p>A research-based project demonstrating SQL Injection exploitation techniques on a MERN stack
+                        application using MySQL. It was presented in a conference to showcase vulnerabilities and
+                        prevention strategies in real-world systems.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./assets/images/sql_injection.jpg" alt="SQL Injection Toolkit">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>Inventory Management System</h1>
+                    <h2>React + REST API Integration</h2>
+                    <p>A web application to manage inventory with features like dynamic filtering, real-time updates,
+                        and CRUD operations. Built using React for UI and a .NET Core Web API backend integrated with
+                        SQL Server.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./assets/images/Inventory.jpg" alt="Inventory Management System">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>Azure Databricks Superstore Analytics</h1>
+                    <h2>Cloud Data Engineering</h2>
+                    <p>Designed and deployed an analytics solution using Azure Databricks and Spark to analyze Superstore
+                        datasets. Extracted insights like sales, profits, top products, and regional performance with
+                        Delta Lake integration for real-time processing.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./assets/images/sales_analysis.jpg" alt="Azure Databricks Analytics">
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-info">
+                    <h1>Bike Ride Expense Tracker</h1>
+                    <h2>MERN + MongoDB Atlas</h2>
+                    <p>A real-time expense tracking app for shared bike rides. Built with the MERN stack and hosted on
+                        Azure VM, the app dynamically adjusts payments based on attendance and holidays using MongoDB
+                        Atlas for real-time updates.</p>
+                </div>
+                <div class="project-img">
+                    <img src="./assets/images/bike_expense.jpg" alt="Bike Ride Expense Tracker">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End Projects Section -->
+
+
+    <!-- About Section -->
+<section id="about">
+    <div class="about container">
+        <div class="col-left">
+            <div class="about-img">
+                <img src="./assets/images/img-2.png" alt="Ajay Deekonda">
+            </div>
+        </div>
+        <div class="col-right">
+            <h1 class="section-title">About <span>me</span></h1>
+            <h2>Full Stack Developer | Cloud Enthusiast</h2>
+            <p>I’m Ajay Deekonda, a Full Stack Developer with experience in building end-to-end web applications and deploying them
+                on cloud platforms. I specialize in frontend development with React.js and backend development with Node.js,
+                Express.js, and .NET. I have hands-on expertise with databases like MySQL, MongoDB, and Azure SQL.  
+                <br><br>
+                I enjoy solving complex problems by writing clean, efficient, and maintainable code. My passion for cloud technologies
+                has led me to work with Microsoft Azure services, including Databricks, Event Hub, and Terraform automation.  
+                <br><br>
+                My goal is to design and develop scalable digital solutions that enhance user experience and drive business value,
+                while continuously learning and adapting to new technologies.</p>
+            <a href="./assets/Ajaydeekonda_cv.pdf" download class="cta">Download Resume</a>
+        </div>
+    </div>
+</section>
+<!-- End About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact container">
+            <div>
+                <h1 class="section-title">Contact <span>info</span></h1>
+            </div>
+            <div class="contact-items">
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+91 6302632819</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+  <div class="icon">
+    <img src="https://img.icons8.com/bubbles/100/000000/new-post.png" />
+  </div>
+  <div class="contact-info">
+    <h1>Email</h1>
+    <h2>
+      <a href="mailto:ajay.deekonda11@gmail.com" style="color: inherit; text-decoration: none;">
+        ajay.deekonda11@gmail.com
+      </a>
+    </h2>
+  </div>
+</div>
+
+                <div class="contact-item">
+                    <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>India</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand">
+                <h1><span>A</span>jay <span>D</span>eekonda</h1>
+            </div>
+            <h2>Your Complete Web Solution</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="./assets/icons/linkedin.png" /></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="./assets/icons/github.png" /></a>
+                </div>
+               
+            </div>
+            <p>Copyright © 2025 Ajaydeekonda. All rights reserved</p>
+        </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./index.js"></script>
+    <script src="lightdarkmood.js"></script>
+</body>
+
+</html>
